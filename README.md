@@ -4,6 +4,12 @@
 
 KSP Scene Editor is an in-game editor for customizing and saving the main-menu scenes of **Kerbal Space Program 1**.
 
+## Download & Links
+
+- **SpaceDock:** https://spacedock.info/mod/4495/KSP%20Scene%20Editor
+- **Source code:** https://github.com/Escozoo-raccoon/KSPSceneEditor
+- **Forum:** coming soon
+
 ## Features
 
 - Edit the different native main-menu states independently.
@@ -25,7 +31,7 @@ KSP Scene Editor is an in-game editor for customizing and saving the main-menu s
 
 ## Installation
 
-1. Download the player release ZIP.
+1. Download the player release ZIP from SpaceDock or GitHub Releases.
 2. Open it and copy the included `GameData` folder into the root of your Kerbal Space Program installation.
 3. Confirm that this file exists:
 
@@ -71,11 +77,11 @@ No third-party mod dependency is required.
 
 ## Source
 
-The source code is included in the source archive and is intended to compile against the KSP/Unity assemblies referenced by the included Visual Studio project.
+The complete source code is available in this repository and is intended to compile against the KSP/Unity assemblies referenced by the included Visual Studio project.
 
 ## License
 
-See `LICENSE.txt`.
+KSP Scene Editor is released under the **MIT License**. See `LICENSE.txt`.
 
 ## Disclaimer
 
