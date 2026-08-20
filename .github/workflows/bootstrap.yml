@@ -2,8 +2,6 @@ name: Bootstrap KSP Scene Editor v1.0.0
 
 on:
   push:
-    paths:
-      - '.github/workflows/bootstrap.yml'
   workflow_dispatch:
 
 permissions:
