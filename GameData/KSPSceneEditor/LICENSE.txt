@@ -1,0 +1,19 @@
+KSP Scene Editor
+Copyright (c) 2026. All rights reserved.
+
+SOURCE AVAILABILITY NOTICE
+
+The source code is provided for transparency, inspection, compilation, debugging,
+and compliance with the Kerbal Space Program community add-on distribution rules.
+
+Unless the copyright holder grants separate written permission, you may not
+redistribute modified or unmodified copies of KSP Scene Editor, publish derivative
+works, relicense it, sell it, or incorporate its original code or original artwork
+into another distributed project.
+
+This license does not grant rights to Kerbal Space Program, Unity, third-party mods,
+user-imported crafts, user-imported images, user-imported skyboxes, or any other
+third-party material. Those remain the property of their respective owners.
+
+KSP Scene Editor is an unofficial community project and is not affiliated with,
+endorsed by, or sponsored by the owners or publishers of Kerbal Space Program.

@@ -1,0 +1,44 @@
+KSP SCENE EDITOR 1.0.0 - USER GUIDE
+
+INSTALLATION
+------------
+Copy the included GameData folder into your Kerbal Space Program root folder.
+
+The DLL must be located at:
+GameData/KSPSceneEditor/Plugins/KSPSceneEditor.dll
+
+OPENING THE EDITOR
+------------------
+Start KSP and use the Scene Editor toolbar button from the main menu.
+
+COMPOSITIONS
+------------
+Each detected KSP main-menu state can keep its own composition.
+You can save, apply, rename and delete multiple compositions per state.
+The composition marked ACTIVE is restored automatically for that view.
+
+EDITING
+-------
+Select objects directly in the scene and use move, depth, rotation and scale tools.
+The object list remains available as a fallback.
+
+KERBALS
+-------
+Kerbals use animation-preserving offsets instead of replacing their live KSP pose.
+
+USER CONTENT
+------------
+Crafts:
+GameData/KSPSceneEditor/Crafts/
+
+Images:
+GameData/KSPSceneEditor/PluginData/Images/
+
+Skyboxes:
+GameData/KSPSceneEditor/PluginData/Skyboxes/
+
+RESTORATION
+-----------
+RESET OBJECT restores the selected object.
+CANCEL MODIFICATIONS returns to the last active saved composition for the current view.
+KSP ORIGINAL disables the active composition for the current view and restores stock KSP.

@@ -1,0 +1,27 @@
+KSP SCENE EDITOR CHANGELOG
+
+1.0.0
+- First public release.
+- Independent editing for native KSP main-menu states.
+- Direct scene selection and manipulation.
+- Animation-preserving Kerbal transform offsets.
+- Stock logo and compatible visual editing.
+- Stock and custom text editing.
+- User crafts, celestial bodies, lights, images and skyboxes.
+- Full composition persistence.
+- Multiple saved compositions per view.
+- Apply, rename and delete composition support.
+- Session persistence when entering gameplay and returning to the main menu.
+- Persistent active composition after KSP restart.
+- KSP original-state restoration.
+- Public package cleanup: no TEST_ONLY content and no bundled KSP planet textures.
+
+0.53 RC1
+- Publication cleanup and source release candidate.
+
+0.52
+- Composition library polish and rename/delete.
+- Validated state switching, game return and reboot persistence.
+
+0.51.x
+- Deep persistence/context audit and cleanup.

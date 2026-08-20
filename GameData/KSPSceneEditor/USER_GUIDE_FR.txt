@@ -1,0 +1,104 @@
+KSP SCENE EDITOR 1.0.0 - GUIDE UTILISATEUR
+
+INSTALLATION
+------------
+Copiez le dossier GameData fourni dans le dossier racine de Kerbal Space Program.
+
+La DLL doit se trouver ici :
+GameData/KSPSceneEditor/Plugins/KSPSceneEditor.dll
+
+OUVERTURE
+---------
+Lancez KSP puis utilisez le bouton Scene Editor dans la barre du menu principal.
+
+PRINCIPE DES VUES
+-----------------
+Les différents états du menu KSP sont indépendants.
+Vous pouvez donc préparer une composition différente pour chaque état.
+
+Lorsque vous passez d'un état à l'autre, Scene Editor conserve le travail de la session.
+Une composition réellement sauvegardée peut également être restaurée après redémarrage de KSP.
+
+COMPOSITIONS
+------------
+L'onglet COMPOSITIONS permet de :
+- sauvegarder une composition;
+- appliquer une composition;
+- conserver plusieurs sauvegardes pour une même vue;
+- renommer une sauvegarde;
+- supprimer une sauvegarde;
+- revenir à l'état KSP d'origine.
+
+La composition marquée ACTIF est celle qui sera restaurée automatiquement pour cette vue.
+
+ÉDITION
+-------
+Sélectionnez directement un élément dans la scène.
+Les principaux outils permettent :
+- déplacement;
+- profondeur;
+- rotation;
+- taille.
+
+La liste d'objets reste disponible comme solution de secours lorsqu'un élément est difficile à sélectionner.
+
+KERBALS
+-------
+Les Kerbals peuvent être déplacés, tournés et redimensionnés sans remplacer leur animation KSP.
+Scene Editor applique des offsets au-dessus de leur pose animée.
+
+TEXTES
+------
+Selon l'objet sélectionné, vous pouvez modifier :
+- contenu;
+- taille;
+- couleur;
+- alignement;
+- interligne;
+- style;
+- police.
+
+IMAGES
+------
+Vous pouvez importer vos propres PNG/JPG/JPEG.
+Ils sont copiés dans :
+GameData/KSPSceneEditor/PluginData/Images/
+
+Ils peuvent être utilisés comme image libre ou appliqués à certains visuels compatibles, comme le logo.
+
+CRAFTS
+------
+Placez vos fichiers .craft dans :
+GameData/KSPSceneEditor/Crafts/
+
+Scene Editor peut les charger comme objets visuels du menu et conserver l'état de leurs contrôles détectés lorsque possible.
+
+ASTRES
+------
+Scene Editor détecte les CelestialBody chargés par KSP.
+Cela permet également de voir les corps de nombreux planet packs.
+
+SKYBOX
+------
+Placez chaque pack dans :
+GameData/KSPSceneEditor/PluginData/Skyboxes/NomDuPack/
+
+Chaque pack doit contenir six faces :
+GalaxyTex_PositiveX
+GalaxyTex_NegativeX
+GalaxyTex_PositiveY
+GalaxyTex_NegativeY
+GalaxyTex_PositiveZ
+GalaxyTex_NegativeZ
+
+RESTAURATION
+------------
+RESET OBJET restaure l'objet sélectionné.
+ANNULER MODIFS revient à la dernière composition active de la vue.
+KSP ORIGINAL désactive la composition active de cette vue et restaure l'état KSP d'origine.
+Les fichiers de compositions sauvegardés ne sont pas supprimés sauf si vous utilisez SUPPRIMER.
+
+IMPORTANT
+---------
+Le package public ne contient volontairement aucun craft, logo, skybox ou texture de planète provenant de KSP.
+Utilisez uniquement du contenu que vous avez le droit d'utiliser.
