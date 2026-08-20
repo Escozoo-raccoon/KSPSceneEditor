@@ -8,7 +8,7 @@ KSP Scene Editor is an in-game editor for customizing and saving the main-menu s
 
 - **SpaceDock:** https://spacedock.info/mod/4495/KSP%20Scene%20Editor
 - **Source code:** https://github.com/Escozoo-raccoon/KSPSceneEditor
-- **Forum:** coming soon
+- **Forum:** https://forum.kerbalspaceprogram.com/topic/231622-112x-ksp-scene-editor-v100-create-customize-save-restore-main-menu-scenes/
 
 ## Features
 
