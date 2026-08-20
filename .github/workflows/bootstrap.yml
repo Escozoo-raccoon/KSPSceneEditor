@@ -1,7 +1,6 @@
 name: Bootstrap KSP Scene Editor v1.0.0
 
 on:
-  push:
   workflow_dispatch:
 
 permissions:
@@ -24,7 +23,6 @@ jobs:
             .bootstrap/part_00 \
             .bootstrap/merged_01 \
             .bootstrap/merged_02 \
-            .bootstrap/merged_03 \
             .bootstrap/m04_00 \
             .bootstrap/m04_01 \
             .bootstrap/m04_02 \
